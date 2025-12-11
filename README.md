@@ -26,10 +26,26 @@ Este sistema foi desenvolvido em **Python + Django** com o objetivo de oferecer 
 - **HTML5 e CSS3**
 - **VS Code**
 
+
+# 📸 Funcionalidades
+
+## 👩‍🎨 Área pública
+
+- Página inicial com listagem de serviços
+- Listagem de profissionais
+- Galeria de fotos
+- Detalhes do serviço
+- Formulário de agendamento
+- Página de sucesso após agendamento
+
+
+## 🛠️ Área administrativa (Admin)
+
+- Gerenciamento de serviços
+- Gerenciamento de cabeleireiras
+- Clientes
+- Controle de agendamentos
+- Upload de imagens para galeria
+
 ---
 
-
-
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
