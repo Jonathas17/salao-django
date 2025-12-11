@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Agendamento recebido</h2>
+<p>Obrigado, seu agendamento foi registrado:</p>
+<ul>
+  <li>Cliente: {{ appointment.client.name }}</li>
+  <li>Serviço: {{ appointment.service.name }}</li>
+  <li>Data: {{ appointment.date }}</li>
+  <li>Hora: {{ appointment.time }}</li>
+</ul>
+<a href="{% url 'home' %}" class="btn btn-primary">Voltar</a>
+{% endblock %}

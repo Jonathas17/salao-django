@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Agendar</h2>
+<form method="post">
+  {% csrf_token %}
+  <h5>Seus dados</h5>
+  {{ client_form.as_p }}
+  <h5>Detalhes do agendamento</h5>
+  {{ appt_form.as_p }}
+  <button class="btn btn-success" type="submit">Enviar</button>
+</form>
+{% endblock %}

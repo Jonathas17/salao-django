@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ service.name }}</h2>
+<p>{{ service.description }}</p>
+<p><strong>Preço:</strong> R$ {{ service.price }}</p>
+<p><strong>Duração:</strong> {{ service.duration_minutes }} minutos</p>
+<a class="btn btn-primary" href="{% url 'book_appointment' %}">Agendar este serviço</a>
+{% endblock %}
