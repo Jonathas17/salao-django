@@ -22,3 +22,7 @@ class AppointmentAdmin(admin.ModelAdmin):
 @admin.register(GalleryImage)
 class GalleryAdmin(admin.ModelAdmin):
     list_display = ('title', 'created_at')
+
+admin.site.site_header = "Administração do Salão Feminino"
+admin.site.site_title = "Painel do Salão"
+admin.site.index_title = "Bem-vindo ao Painel Administrativo"
